@@ -1,12 +1,12 @@
 body {
   background-image: url("../Img/background.jpg");
-  background-size: cover ;
+  background-size: cover;
 }
 
 h1.fontycolor {
-  font-family:'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   font-size: 50px;
-  color:thistle;
+  color: thistle;
 }
 p {
   color: thistle;
@@ -16,5 +16,19 @@ p {
   float: right;
 }
 .listamenu {
-    color: thistle;
+  color: thistle;
+}
+
+.rights {
+  text-align: center;
+}
+main {
+  flex-wrap: wrap;
+  min-height: 80vh;
+}
+
+footer {
+  width: 100%;
+  text-align: center;
+  align-self: flex-end;
 }

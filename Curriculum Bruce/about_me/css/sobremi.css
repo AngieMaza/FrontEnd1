@@ -1,0 +1,12 @@
+body {
+    background-image: url('../img/banner.jpg');
+    background-size: cover;
+}
+main {
+    color: oldlace;
+    
+}
+header {
+    text-align: right;
+    color: royalblue;
+}

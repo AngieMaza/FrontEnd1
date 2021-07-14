@@ -5,40 +5,47 @@
   text-transform: uppercase;
   font-weight: bold;
 }
-.alineadocentro {
-  text-align: center;
-  background-color: #c4c4c4;
-  color: #005677;
-  font-family: "Times New Roman", Times, serif;
-  text-transform: uppercase;
-
-
-  font-family: Times New Roman;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 35px;
-
-}
-
 .italicbold {
   font-weight: bold;
   font-style: italic;
 }
 
-.logocentro {
-  display: block;
-  margin: auto;
+header {
+  text-align: center;
+  background-image: url("../img/banner2.png");
+  background-size: 500px;
+ background-position: center;
+
 }
+
 
 footer {
   background-color: #005677;
   text-align: center;
   font-family: "Times New Roman", Times, serif;
   color: white;
-
 }
-.seccionmedia {
-    line-height: 30px;
-
+.flexible {
+  display: flex;
+  font-size: 15px;
 }
 
+main {
+  width: 800px;
+  margin-left: 320px;
+  
+}
+
+h2 {
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 35px;
+}
+
+.vinculo {
+  float: right;
+  font-size: 30px;
+  color:black;
+}

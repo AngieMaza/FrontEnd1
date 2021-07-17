@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: roboto;  
+}
+
+
+header {
+  color: white;
+  
+}
+.sectop {
+  background-color: black;
+}
+
+.seclow {
+  background-color: rgba(240, 168, 62, 1);
+}
+
+main {
+  text-align: center;
+}
+.banner {
+  background-image: url(../img/backgorwnd.png);
+  height: 409px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+  
+}
+    
+.suscribete {
+  background-color: rgba(240, 168, 62, 1);
+  color: white;
+  font-size: 20px;
+}
+.Datosweb {
+
+  background-color: #3C2313;
+  color: white;
+
+}
+.rights {
+  text-align: center;
+  background-color: rgba(240, 168, 62, 1);
+}

@@ -23,12 +23,19 @@ main {
   text-align: center;
 }
 .banner {
+  
   background-image: url(../img/backgorwnd.png);
   height: 409px;
   background-size: cover;
   background-repeat: no-repeat;
   
   
+}
+.articulos {
+  flex-direction: row;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
 }
     
 .suscribete {

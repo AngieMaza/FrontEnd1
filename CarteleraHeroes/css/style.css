@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+* {
+    margin: 0px;
+    padding: 0px;
+    
+}
+body {
+    font-family: roboto;
+}
+
+main {
+    width: 1024px;
+}
+
+
+
+.encabezado {
+    background-color: rgba(28, 209, 176, 1);
+    line-height: 38px;
+    font-size: 15px;
+}
+
+.titulo {
+    background-color: rgba(0, 102, 159, 1);
+    line-height: 101px;
+    position: fixed;
+    width: 100%;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: normal;
+}
+
+.articulos {
+    
+    margin-top: 153px;
+    margin-bottom: 150px;
+}
+
+article {
+    width: 300px;
+    height: 529px ;
+    margin: 16px;
+    display: inline-block;
+    position: relative;
+
+}
+
+.imgfront {
+    position: absolute;
+    left: 90px;
+    bottom: 282px;
+    
+}
+
+
+i {
+    position: absolute;
+    color: rgba(204, 36, 36, 1);
+    left: 6.25%;
+    top: 6.25%;
+    
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.artdesc {
+    padding: 117px 17px 104px;
+
+}
+
+.boton {
+    text-align: center;
+}
+
+footer {
+    background-color: rgba(0, 102, 159, 1);
+    line-height: 51px;
+    color: white;
+    font-size: 16px;
+}

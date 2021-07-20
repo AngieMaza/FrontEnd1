@@ -1,33 +1,52 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
+* {
+  padding: 0;
+  margin: 0;
+}
 body {
 
   font-family: roboto;  
 }
-
 
 header {
   color: white;  
 }
 .sectop {
   background-color: black;
+  display: flex;
+  justify-content: space-between;
 }
 
 .seclow {
   background-color: rgba(240, 168, 62, 1);
+  display: flex;
+  justify-content: space-between;
 }
 
-main {
-  text-align: center;
-}
 .banner {
   background-image: url(../img/backgorwnd.png);
   height: 409px;
   background-size: cover;
   background-repeat: no-repeat;
-
+  display: flex;
+  justify-content: flex-end;
+ 
 }
+
+.contbanner{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.productos{
+text-align: center;
+}
+
 .articulos {
+  text-align: center;
   flex-direction: row;
   justify-content: center;
   display: flex;

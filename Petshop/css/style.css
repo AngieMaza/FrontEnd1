@@ -3,6 +3,7 @@
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 body {
 
@@ -13,17 +14,22 @@ header {
   color: white;  
 }
 .sectop {
+
+  padding:4px 60px 4px 90px ;
   background-color: black;
   display: flex;
   justify-content: space-between;
 }
 
 .seclow {
+  padding: 20px 40px;
   background-color: rgba(240, 168, 62, 1);
   display: flex;
   justify-content: space-between;
 }
-
+i {
+  padding-left: 20px;
+}
 .banner {
   background-image: url(../img/backgorwnd.png);
   height: 409px;
@@ -31,7 +37,8 @@ header {
   background-repeat: no-repeat;
   display: flex;
   justify-content: flex-end;
- 
+  font-size: 16px;
+
 }
 
 .contbanner{
@@ -39,10 +46,31 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  background-color: white ;
+  font-weight: normal; 
+  font-size: 30px;
+  padding: 5px;
+}
+
+button{
+  background-color:rgba(240, 168, 62, 1) ;
+  width: 141px ;
+  height: 49px ;
+  color: white;
+}
+
+.contbanner p {
+  padding: 5px;
+  color: rgba(60, 35, 19, 1);
 }
 
 .productos{
-text-align: center;
+  margin: 20px;
+  text-align: center;
 }
 
 .articulos {
@@ -52,19 +80,38 @@ text-align: center;
   display: flex;
   flex-wrap: wrap;
 }
+.precio {
+  color:rgba(240, 168, 62, 1) ;
+}
+
+.articulos div {
+  margin: 20px ;
+}
     
 .suscribete {
   background-color: rgba(240, 168, 62, 1);
   color: white;
   font-size: 20px;
+  height: 60px;
+  padding:15px;
 }
-.Datosweb {
 
+
+.Datosweb {
   background-color: #3C2313;
   color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 80px;
 
 }
+
+
+
+
 .rights {
   text-align: center;
   background-color: rgba(240, 168, 62, 1);
 }
+

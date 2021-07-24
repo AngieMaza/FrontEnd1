@@ -47,6 +47,7 @@ i {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 12px;
 }
 
 h1 {
@@ -80,14 +81,14 @@ button{
   display: flex;
   flex-wrap: wrap;
 }
+.articulos article {
+  margin: 20px ;
+  
+}
 .precio {
   color:rgba(240, 168, 62, 1) ;
 }
 
-.articulos div {
-  margin: 20px ;
-}
-    
 .suscribete {
   background-color: rgba(240, 168, 62, 1);
   color: white;
@@ -107,11 +108,20 @@ button{
 
 }
 
+.footloc {
+display: flex;
+padding-top: 16px;
 
+}
+.footloc div p {
+  margin-left: 16px;
+}
 
 
 .rights {
   text-align: center;
-  background-color: rgba(240, 168, 62, 1);
+  background-color: black;
+  color: white;
+  padding: 4px;
 }
 

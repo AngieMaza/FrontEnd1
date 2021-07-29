@@ -6,26 +6,25 @@
   box-sizing: border-box;
 }
 body {
-
-  font-family: roboto;  
+  font-family: roboto;
 }
 
 header {
-  color: white;  
+  color: white;
 }
 .sectop {
-
-  padding:4px 60px 4px 90px ;
-  background-color: black;
-  display: flex;
-  justify-content: space-between;
+  display: none;
+  visibility: hidden;
 }
-
 .seclow {
   padding: 20px 40px;
   background-color: rgba(240, 168, 62, 1);
   display: flex;
   justify-content: space-between;
+}
+.seclow nav ul {
+  display: none;
+  visibility: hidden;
 }
 i {
   padding-left: 20px;
@@ -38,29 +37,27 @@ i {
   display: flex;
   justify-content: flex-end;
   font-size: 16px;
-
 }
-
-.contbanner{
+.contbanner {
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
   padding: 12px;
 }
 
 h1 {
-  background-color: white ;
-  font-weight: normal; 
+  background-color: white;
+  font-weight: normal;
   font-size: 30px;
   padding: 5px;
 }
 
-button{
-  background-color:rgba(240, 168, 62, 1) ;
-  width: 141px ;
-  height: 49px ;
+button {
+  background-color: rgba(240, 168, 62, 1);
+  width: 141px;
+  height: 49px;
   color: white;
 }
 
@@ -69,11 +66,21 @@ button{
   color: rgba(60, 35, 19, 1);
 }
 
-.productos{
+.productos {
   margin: 20px;
   text-align: center;
 }
-
+.productos ul {
+  display: flex;
+  justify-content: center;
+}
+.productos ul li {
+  margin-left: 15px;
+}
+h2 {
+  font-size: 40px;
+  color: rgba(60, 35, 19, 1);
+}
 .articulos {
   text-align: center;
   flex-direction: row;
@@ -82,41 +89,39 @@ button{
   flex-wrap: wrap;
 }
 .articulos article {
-  margin: 20px ;
-  
+  margin: 20px;
 }
 .precio {
-  color:rgba(240, 168, 62, 1) ;
+  color: rgba(240, 168, 62, 1);
 }
-
+.articulos article p {
+  color: rgba(60, 35, 19, 1);
+}
+.precio {
+  color: rgba(240, 168, 62, 1);
+}
 .suscribete {
   background-color: rgba(240, 168, 62, 1);
   color: white;
   font-size: 20px;
   height: 60px;
-  padding:15px;
+  padding: 15px;
 }
-
-
 .Datosweb {
-  background-color: #3C2313;
+  background-color: #3c2313;
   color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px 80px;
-
 }
-
 .footloc {
-display: flex;
-padding-top: 16px;
-
+  display: flex;
+  padding-top: 16px;
 }
 .footloc div p {
   margin-left: 16px;
 }
-
 
 .rights {
   text-align: center;
@@ -125,3 +130,31 @@ padding-top: 16px;
   padding: 4px;
 }
 
+@media screen and (min-width: 780px) {
+  .sectop {
+    visibility: visible;
+    padding: 4px 60px 4px 90px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .seclow nav i {
+    display: none;
+    visibility: hidden;
+  }
+  .seclow nav ul {
+    display: flex;
+    visibility: visible;
+  }
+  .seclow nav ul li {
+    display: flex;
+  }
+  .seclow nav ul i {
+    display: flex;
+    visibility: visible;
+  }
+  .contbanner {
+    align-items: center;
+  }
+}

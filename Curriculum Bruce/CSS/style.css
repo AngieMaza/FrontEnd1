@@ -1,3 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  text-align: center;
+  background-image: url("../img/banner2.png");
+  background-size: 500px;
+  background-position: center;
+}
+h1 {
+  font-size: 35px;
+}
+main {
+  padding: 100px; 
+}
+section div {
+  margin: 20px;
+}
+h2 {
+  font-size: 20px;
+}
+.vinculo {
+  float: right;
+  padding-right: 50px;
+  font-size: 30px;
+  color:black;
+}
 .enmarcador {
   background-color: #c4c4c4;
   color: #005677;
@@ -9,16 +39,10 @@
   font-weight: bold;
   font-style: italic;
 }
-
-header {
-  text-align: center;
-  background-image: url("../img/banner2.png");
-  background-size: 500px;
- background-position: center;
-
+.flexible {
+  display: flex;
+  font-size: 15px;
 }
-
-
 footer {
   background-color: #005677;
   text-align: center;
@@ -26,27 +50,5 @@ footer {
   color: white;
   font-size: 30px;
 }
-.flexible {
-  display: flex;
-  font-size: 15px;
-}
 
-main {
-  width: 800px;
-  margin-left: 320px;
-  
-}
 
-h2 {
-  font-size: 20px;
-}
-
-h1 {
-  font-size: 35px;
-}
-
-.vinculo {
-  float: right;
-  font-size: 30px;
-  color:black;
-}

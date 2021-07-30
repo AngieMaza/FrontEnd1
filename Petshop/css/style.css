@@ -111,7 +111,7 @@ h2 {
   background-color: #3c2313;
   color: white;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column-reverse;
   align-items: center;
   padding: 20px 80px;
 }
@@ -156,5 +156,9 @@ h2 {
   }
   .contbanner {
     align-items: center;
+  }
+  .Datosweb{
+    flex-direction: row;
+    justify-content: space-between;
   }
 }

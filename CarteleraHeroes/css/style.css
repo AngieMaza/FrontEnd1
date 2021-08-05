@@ -138,6 +138,7 @@ form input {
   margin-top: 20px;
   border: 0.1rem solid;
   font-size: 20px;
+  width: 100%;
 }
 form textarea {
   padding: 15px;
@@ -145,6 +146,7 @@ form textarea {
   margin-top: 20px;
   border: 0.1rem solid;
   font-size: 20px;
+  width: 100%;
 }
 form select {
   padding: 15px;
@@ -152,6 +154,7 @@ form select {
   margin-top: 20px;
   border: 0.1rem solid;
   font-size: 20px;
+  width: 100%;
 }
 form .action-button {
   background-color: #1cd1b0;

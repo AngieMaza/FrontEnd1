@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+header {
+  font-family: roboto;
+}
+aside {
+  margin-left: 15px;
+}
+.encabezado {
+  background-color: #1cd1b0;
+  line-height: 38px;
+  font-size: 15px;
+}
+.menu {
+  padding: 10px 20px;
+  background-color: #001d2d;
+  height: 40px;
+  color: white;
+}
+.menu ul {
+  text-align: right;
+}
+.menu ul li {
+  display: inline-block;
+  margin-left: 15px;
+}
+h1 {
+  background-color: rgba(0, 102, 159, 1);
+  line-height: 101px;
+  width: 100%;
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+  font-weight: normal;
+  padding-left: 15px;
+}
+main {
+  display: flex;
+  justify-content: center;
+  font-family: Inter;
+}
+.formulario {
+  background-color: #00669f;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border-radius: 50px;
+  color: white;
+  width: 60%;
+  position: relative;
+}
+h2 {
+  text-align: center;
+  font-size: 40px;
+}
+.formulario p {
+  text-align: center;
+  margin: 10px;
+}
+form {
+  display: flex;
+  justify-content: right;
+  font-weight: 300;
+  font-size: 20px;
+}
+form div {
+  width: 50%;
+}
+form div:nth-child(1) {
+  margin-left: 10%;
+}
+form div:nth-child(1) input {
+  width: 90%;
+  border-radius: 15px;
+}
+form div:nth-child(1) textarea {
+  height: 307px;
+  border-radius: 15px;
+  padding: 15px;
+}
+form div:nth-child(2) {
+  margin-left: 0%;
+}
+form div:nth-child(2) fieldset {
+  font-size: 16px;
+}
+form div input {
+  padding: 15px;
+  height: 60px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+form div select {
+  padding: 15px;
+  height: 60px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 80%;
+  border-radius: 15px;
+}
+.action-button {
+  background-color: #1cd1b0;
+  height: 87px;
+  font-weight: 700;
+  width: 50%;
+  border-radius: 23px;
+  font-size: 40px;
+  margin-top: 15px;
+  margin-left: 25%;
+  margin-bottom: 20px;
+}
+footer {
+  background-color: rgba(0, 102, 159, 1);
+  line-height: 51px;
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  position: relative;
+}
+footer img {
+  position: absolute;
+  right: 15px;
+  height: 40px;
+  padding-top: 10px;
+}

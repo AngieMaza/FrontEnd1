@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cartelera Heroes</title>
+    <link rel="stylesheet" href="../css/style2.css">
+    <script src="https://kit.fontawesome.com/8b9b427410.js" crossorigin="anonymous"></script>
+
+</head>
+
+
+<body>
+    <header>
+        <section class="encabezado">
+            <aside>Descuentos 20%</aside>
+        </section>
+        <section>
+            <h1>Heroes</h1>
+        </section>
+        <section class="menu">
+            <nav>
+                <ul type="none">
+                    <li><a href="./preview/contacto.html">Contacto</a></li>
+                    <li><a href="./preview/registro.html">Registrarme</a></li>
+                    <li><a href="./preview/login.html">Ingresar</a></li>
+                </ul>
+            </nav>
+        </section>
+    </header>
+    <main>
+        <section class="formulario">
+            <h2>Añadí tu super!</h2>
+            <p>Agregá tu personaje favorito completando las opciones.</p>
+            <form action="" method="POST">
+                <div>
+                    <label for="nombre">*Nombre</label><br>
+                    <input type="text" name="" id="nombre"><br>
+                    <label for="Fecha">Fecha</label><br>
+                    <input type="date" name="fecha" id="Fecha"><br>
+                    <textarea name="descripcion" placeholder="Descripcion"></textarea>
+                </div>
+                <div>
+                    <label for="especie">*Especie</label><br>
+                    <select name="especie" id="especie">
+                        <option> Animal </option>
+                        <option> Extraterrestre </option>
+                        <option> Humano </option>
+                        <option> MetaHumano </option>
+                        <option> SemiDios </option>
+                    </select><br>
+                    <label for="avatar">Agregar Foto</label><br>
+                    <input type="file" name="avatar" accept=".jpg" id="avatar">
+                    <fieldset>
+                        <label>Poderes</label><br>
+                        <input type="checkbox" name="poderes" id="volar" value="Volar">
+                        <label for="volar">Volar</label>
+                        <input type="checkbox" name="poderes" id="inteli" value="Superinteligencia">
+                        <label for="inteli">Superinteligencia</label>
+                        <input type="checkbox" name="poderes" id="Vista" value="Vista de Rayo Láser">
+                        <label for="Vista">Vista de Rayo Láser</label>
+                        <input type="checkbox" name="poderes" id="billetera" value="Billetera Gorda">
+                        <label for="billetera">Billetera Gorda</label>
+                    </fieldset>
+                    <fieldset>
+                        <label>Tipo de personajes</label>
+                        <input type="radio" name="personaje" id="heroe" value="Héroe / Heroína">
+                        <label for="heroe">Héroe / Heroína</label>
+                        <input type="radio" name="personaje" id="villano" value="Villano / Villana">
+                        <label for="volar">Villano / Villana</label>
+                    </fieldset>
+                </div>
+            </form>
+            <input type="button" class="action-button" value="Añadir">
+        </section>
+    </main>
+    <footer>
+        <img class="footimg" src="../img/Vector.png" alt="github">
+        <div>Todos los derechos reservados a FRONT END 1</div>
+    </footer>
+
+</body>
+
+</html>

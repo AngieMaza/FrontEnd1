@@ -74,7 +74,7 @@ nav ul li a:hover::before {
 }
 
 .social ul li a {
-  display: inline-block; /* porque le quiero agregar padding */
+  display: inline-block;
   color: var(--secondary-color);
   background: var(--primary-color);
   padding: 10px 15px;

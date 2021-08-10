@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
-
 * {
   padding: 0;
   margin: 0;
@@ -8,7 +7,6 @@
 body {
   font-family: roboto;
 }
-
 header {
   color: white;
 }
@@ -46,26 +44,25 @@ i {
   align-items: flex-end;
   padding: 12px;
 }
-
 h1 {
   background-color: white;
   font-weight: normal;
   font-size: 30px;
   padding: 5px;
+  border-radius: 5px;
 }
-
 button {
   background-color: rgba(240, 168, 62, 1);
   width: 141px;
   height: 49px;
   color: white;
+  border-radius: 5px;
+  border: 0;
 }
-
 .contbanner p {
   padding: 5px;
   color: rgba(60, 35, 19, 1);
 }
-
 .productos {
   margin: 20px;
   text-align: center;
@@ -100,12 +97,72 @@ h2 {
 .precio {
   color: rgba(240, 168, 62, 1);
 }
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form form {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+h4 {
+  font-size: 40px;
+  color: #3c2313;
+}
+.form form input {
+  background-color: #3c2313;
+  height: 40px;
+  border-radius: 15px;
+  border: 0;
+  margin-top: 5px;
+  padding: 15px;
+  width: 80vh;
+}
+.form form div {
+  margin-top: 40px;
+  display: flex;
+  width: 90%;
+}
+.form form div input {
+  margin-left: 6px;
+  border-radius: 25px;
+  background-color: #8a8787;
+  color: white;
+}
+.form form div input:last-child {
+  background-color: rgba(240, 168, 62, 1);
+}
 .suscribete {
+  display: flex;
+  flex-direction: column;
+  margin-top: 45px;
   background-color: rgba(240, 168, 62, 1);
   color: white;
   font-size: 20px;
-  height: 60px;
   padding: 15px;
+}
+.form2 {
+  margin-top: 15px;
+}
+.form2 form input {
+  color: white;
+  border-radius: 15px;
+  border: 0;
+  width: 65%;
+  height: 40px;
+  padding: 10px;
+}
+.form2 form input:last-child {
+  background-color: #3c2313;
+  color: white;
+  border-radius: 25px;
+  border: 0;
+  width: 30%;
+  height: 35px;
 }
 .Datosweb {
   background-color: #3c2313;
@@ -122,14 +179,12 @@ h2 {
 .footloc div p {
   margin-left: 16px;
 }
-
 .rights {
   text-align: center;
   background-color: black;
   color: white;
   padding: 4px;
 }
-
 @media screen and (min-width: 780px) {
   .sectop {
     visibility: visible;
@@ -157,7 +212,22 @@ h2 {
   .contbanner {
     align-items: center;
   }
-  .Datosweb{
+  .form form input {
+    width: 35vh;
+  }
+  .form form div {
+    width: 30%;
+  }
+  .suscribete {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .form2 form {
+    width: 40vh;
+  }
+  .Datosweb {
     flex-direction: row;
     justify-content: space-between;
   }

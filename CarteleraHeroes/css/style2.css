@@ -7,6 +7,9 @@
 }
 header {
   font-family: roboto;
+  top: 0;
+  position: sticky;
+  z-index: 10;
 }
 aside {
   margin-left: 15px;
@@ -28,6 +31,12 @@ aside {
 .menu ul li {
   display: inline-block;
   margin-left: 15px;
+}
+.menu ul li a {
+  text-decoration: 0;
+}
+.menu ul li a:visited {
+  color:white;
 }
 h1 {
   background-color: rgba(0, 102, 159, 1);
@@ -56,6 +65,12 @@ h2 {
   text-align: center;
   font-size: 40px;
 }
+h3 {
+  font-size: 1rem;
+  font-weight: 300;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
 .formulario p {
   text-align: center;
   margin: 10px;
@@ -80,16 +95,24 @@ form div:nth-child(1) textarea {
   height: 307px;
   border-radius: 15px;
   padding: 15px;
+  width: 90%;
 }
 form div:nth-child(2) {
   margin-left: 0%;
 }
 form div:nth-child(2) fieldset {
+  margin-top: 20px;
   font-size: 16px;
+  width: 80%;
 }
-form div input {
+form div:first-child input {
   padding: 15px;
   height: 60px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+form div:last-of-type input {
+  padding: 10px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
@@ -111,6 +134,11 @@ form div select {
   margin-top: 15px;
   margin-left: 25%;
   margin-bottom: 20px;
+}
+.action-button:hover{
+  background-color: 
+  #001D2D;
+  color: white;
 }
 footer {
   background-color: rgba(0, 102, 159, 1);

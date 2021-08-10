@@ -55,7 +55,7 @@ nav ul li a:before {
   bottom: -10px;
   height: 5px;
   width: 0%;
-  transition: all 1s ease;
+  transition: all 0.5s ease;
 }
 nav ul li a:hover::before {
   width: 100%;
@@ -99,7 +99,6 @@ nav ul li a:hover::before {
 }
 
 .social ul li a:hover {
-  transform: scaleX(1x);
   padding: 10px 30px;
   background: var(--primary-color);
 }
@@ -142,7 +141,8 @@ nav ul li a:hover::before {
   border-right: 10px solid rgb(66, 139, 202);
   border-bottom: 10px solid rgb(202, 66, 129);
   border-left: 10px solid rgba(66, 139, 202, 0.2);
-  animation: rotate 0.5s infinite ;
+  animation: rotate 0.5s infinite;
+  animation-timing-function: linear;
 }
 @keyframes rotate { 
     from {transform:rotate(0deg) ;}

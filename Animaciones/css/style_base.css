@@ -27,7 +27,6 @@ header .logo {
   margin-top: 20px;
   margin-left: 20px;
 }
-
 /** Menú principal */
 nav ul {
   display: flex;
@@ -72,7 +71,6 @@ nav ul li a:hover::before {
 .social ul {
   list-style: none;
 }
-
 .social ul li a {
   display: inline-block;
   color: var(--secondary-color);
@@ -81,7 +79,6 @@ nav ul li a:hover::before {
   text-decoration: none;
   transition: all 0.4s ease;
 }
-
 .social ul li .icon-facebook {
   background: #3b5998;
 } /* Establecemos los colores de cada red social, aprovechando su class */
@@ -97,18 +94,15 @@ nav ul li a:hover::before {
 .social ul li .icon-mail {
   background: #666666;
 }
-
 .social ul li a:hover {
   padding: 10px 30px;
   background: var(--primary-color);
 }
-
 /* Contenido */
 .container {
   width: 80%;
   margin: 5% auto;
 }
-
 .container p {
   margin-top: 10px;
   text-align: justify;
@@ -124,7 +118,6 @@ nav ul li a:hover::before {
 .container a:hover {
   color: var(--decoration-color);
 }
-
 /* spinner| */
 .spinner {
   width: 64px;

@@ -1,0 +1,220 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --primary-color: #000000;
+  --secondary-color: #f3f3f3;
+  --decoration-color: #619d00;
+  --background-color: #222222;
+  --background-color-2: #ffffff;
+  --background-color-3: #c4c4c4;
+}
+body {
+  font-family: Roboto;
+}
+header {
+  background-color: var(--background-color);
+  padding: 20px;
+  color: #f3f3f3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 90px;
+  font-size: 27px;
+}
+header nav ul {
+  visibility: hidden;
+  display: none;
+}
+main {
+  background-color: rgba(0.22, 0.27, 0.31, 0.1);
+}
+.banner {
+  background-image: url(../img/backbanner.png);
+  height: 512px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.banner aside {
+  font-size: 40px;
+  font-weight: bolder;
+  color: #f3f3f3;
+  padding: 25px 50px;
+  text-align: center;
+}
+.banner aside b {
+  color: #d01418;
+  padding: 0;
+}
+.banner button {
+  background-color: #d01418;
+  border: 0;
+  border-radius: 5px;
+  width: 220px;
+  height: 60px;
+  color: #f3f3f3;
+  font-size: 25px;
+}
+.articulos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.articulos img {
+  height: 163px;
+  width: 130px;
+}
+.articulos div:nth-last-child(2n) {
+  padding: 30px 55px;
+  background-color: var(--background-color-2);
+  width: 240px;
+}
+.articulos div:nth-last-child(2n + 1) {
+  padding: 20px;
+  background-color: var(--background-color-2);
+  width: 240px;
+  margin: 2px 0 30px;
+}
+.articulos div p:first-child {
+  font-size: 20px;
+}
+.articulos div p:nth-last-child(2) {
+  font-size: 13px;
+}
+.articulos div p:nth-last-child(1) {
+  font-size: 10px;
+  color: #619d00;
+}
+h1 {
+  font-weight: 400;
+  font-size: 30px;
+  padding: 25px;
+  color: #000000;
+  text-align: center;
+}
+.p_estrellas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h2 {
+  margin-top: 80px;
+  font-size: 30px;
+  font-weight: normal;
+  color: #000000;
+  text-align: center;
+}
+.p_estrellas a:nth-last-child(2) {
+  background-image: url(../img/bannersillas.png);
+  background-size: cover;
+  height: 108px;
+  width: 70%;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 30px;
+  color: #f3f3f3;
+  font-size: 15px;
+  text-decoration: 0;
+}
+.p_estrellas a:last-child {
+  background-image: url(../img/bannercompus.png);
+  background-size: cover;
+  height: 108px;
+  width: 70%;
+  margin-top: 20px;
+  margin-bottom: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 30px;
+  color: #f3f3f3;
+  font-size: 15px;
+  text-decoration: 0;
+}
+.redes {
+  background-color: var(--background-color);
+  text-align: center;
+  color: #f3f3f3;
+  padding: 20px;
+}
+h3 {
+  font-size: 25px;
+  font-weight: normal;
+  padding: 20px;
+}
+.twitter i {
+  font-size: 32px;
+  color: #14aed0;
+}
+.fb i {
+  font-size: 32px;
+  color: #1476d0;
+  margin-left: 35px;
+}
+.insta i {
+  font-size: 32px;
+  color: #ce0cff;
+  margin-left: 35px;
+}
+.rights {
+  background-color: var(--background-color-3);
+  text-align: center;
+  color: #000000;
+  font-size: 10px;
+  line-height: 25px;
+}
+
+@media screen and (min-width: 780px) {
+  header nav i:nth-child(2) {
+    display: none;
+    visibility: hidden;
+  }
+  header nav ul {
+    visibility: visible;
+    display: flex;
+  }
+  header nav ul i {
+    color: red;
+    margin-left: 40px;
+    font-size: 25px;
+  }
+  header nav ul li {
+    margin-left: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  .articulos {
+    flex-direction: row;
+    justify-content: center;
+  }
+  .articulos article {
+    margin-left: 30px;
+  }
+  .p_estrellas {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .p_estrellas a:nth-last-child(2) {
+    width: 30%;
+    margin-bottom: 80px;
+  }
+  .p_estrellas a:last-child {
+    width: 30%;
+    margin-left: 100px;
+  }
+  .redes {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 50px;
+  }
+}
